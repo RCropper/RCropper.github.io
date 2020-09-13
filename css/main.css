@@ -1,0 +1,56 @@
+@import url
+
+body {
+    margin: 0;
+    background:;
+    font-family: 'gotham', sans-serif;   
+}
+p, blockquote {
+    font-size: .9em;
+    line-height: 1.6em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    text-align: center;
+    background: gray;
+    padding: em;
+}
+.model-photo{
+    width: 30%;;
+    margin: 0em 0em;
+    padding: 0em;
+}
+.menu{
+    width: 35px;
+    margin: 0;    
+}
+.exit-menu{
+    width: 25px;
+    margin-top: 2px;
+    align-content: right;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.top-container{
+    background: blue;
+}
+
+h1{
+    font-size: 2em;
+    position: relative;
+    z-index: 3;
+}
+
+h2, .subhead{
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
